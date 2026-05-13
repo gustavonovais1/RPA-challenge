@@ -1,0 +1,12 @@
+services:
+  rpa-challenge:
+    build: .
+    container_name: rpa-challenge
+    environment:
+      HEADLESS: "1"
+    volumes:
+      - ./data:/app/data
+      - ./database:/app/database
+      - ./logs:/app/logs
+      - ./screenshots:/app/screenshots
+      - ./output:/app/output

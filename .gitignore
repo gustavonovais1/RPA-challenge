@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+logs/
+screenshots/
+database/
+output/
+
+.DS_Store
+*.log
+*.png
+*.csv
+*.xlsx
