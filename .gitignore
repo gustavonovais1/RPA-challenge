@@ -5,13 +5,9 @@ __pycache__/
 *.pyo
 .Python
 
-logs/
-screenshots/
-database/
-output/
-
 .DS_Store
 *.log
 *.png
 *.csv
 *.xlsx
+*.db
